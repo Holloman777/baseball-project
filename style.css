@@ -1,0 +1,247 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: "Graduate", serif;
+    background-color: rgb(186, 183, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+/* Navigation bar */
+nav {
+    position:absolute;  /* Fix it to the top-right corner */
+    top: 0;
+    background-color: #222;
+    height: 80px;
+    
+    
+    
+    
+    width: 100%;
+    
+    
+    
+    
+
+}
+
+/* Unordered list inside the nav */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;  /* Space between links */
+    float: right;
+    padding-top: 30px;
+    padding-right: 50px;
+    
+    
+}
+
+/* Style for each list item */
+nav ul li {
+    display: inline;
+}
+
+/* Style for the links */
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    color: crimson;
+    
+    
+}
+
+/* Optional hover effect */
+nav ul li a:hover {
+    color: #333;
+}
+
+h1 {
+    font-family: "Graduate", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: crimson;
+    text-align: left;
+   
+
+}
+
+p {
+    
+    font-weight: 400;
+    font-style: normal;
+   width: 800px;
+    
+   
+    font-size: 20px;
+    line-height: 1.4em;
+    text-align: center;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    justify-content: center;  /* Optional: Align items vertically (center) */
+    align-items: center;      /* Optional: Align items horizontally (center) */
+    height: 100vh;  
+    
+
+    
+}
+
+.color-container h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    
+    font-style: normal;
+    font-family: "Graduate", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    width: 600px;
+    
+
+}
+
+.color-container p {
+    padding-bottom: 40px;
+    font-weight: 400;
+  
+
+}
+
+.color-container {
+    background-color: #444;
+    
+    width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.color-container button {
+    width: 200px;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+    background-color:  rgb(186, 183, 167);
+    border-radius: 10px;
+    border-style: none;
+    font-family: "Graduate", serif;
+    
+    
+    font-size: 1rem;
+    font-weight: bold;
+    
+    color: crimson;
+    
+    
+   
+}
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: crimson;
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  /* Arrow link styling */
+.arrow-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: crimson;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-size: 15px;
+}
+
+.arrow-link .arrow {
+    display: inline-block;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for arrow */
+.arrow-link:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+  
+    
+    
+
+
+
+
+
+
+    
+   
+
+
